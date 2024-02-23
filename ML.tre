@@ -1,0 +1,217 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=115;
+	taxlabels
+	Acarospora-affinis-ON707071
+	Acarospora-agostiniana-ON707085
+	Acarospora-alba-OQ171055
+	Acarospora-americana-OP162349
+	Acarospora-americana-OP162350
+	Acarospora-atrata-LN810760
+	Acarospora-atrata-LN810761
+	Acarospora-badiofusca-OP162390
+	Acarospora-boulderensis-OP162359
+	Acarospora-boulderensis-OP162391
+	Acarospora-cervina-OK142756
+	Acarospora-cervina-ON794168
+	Acarospora-chrysops-ON447623
+	Acarospora-chrysops-ON447626
+	Acarospora-chrysops-ON707091
+	Acarospora-divisa-OK142748
+	Acarospora-fusca-MT809051
+	Acarospora-fusca-OP162405
+	Acarospora-fuscata-MW989393
+	Acarospora-fuscata-ON447607
+	Acarospora-glaucocarpa-LN810768
+	Acarospora-glaucocarpa-LN810769
+	Acarospora-imbriculata-OP162381
+	Acarospora-impressula-LN810776
+	Acarospora-indistincta-ON707096
+	Acarospora-indistincta-ON707099
+	Acarospora-intermedia-MW715700
+	Acarospora-irregularis-OP162363
+	Acarospora-lapponica-OP162380
+	Acarospora-macrospora-LN810779
+	Acarospora-macrospora-LN810780
+	Acarospora-moenium-LN810781
+	Acarospora-monacensis-OP162370
+	Acarospora-murorum-LN810784
+	Acarospora-nicolai-LN810785
+	Acarospora-nodulosa-LN810788
+	Acarospora-nodulosa-LN810789
+	Acarospora-obpallens-LN810790
+	Acarospora-oligospora-ON794216
+	Acarospora-oligospora-OP162348
+	Acarospora-organensis-ON447603
+	Acarospora-privigna-OK142747
+	Acarospora-radicata-ON447602
+	Acarospora-radicata-ON447604
+	Acarospora-rhizobola-EU870640
+	Acarospora-rimulosa-ON707057
+	Acarospora-rimulosa-ON707094
+	Acarospora-robiniae-ON707078
+	Acarospora-rosulata-LN810796
+	Acarospora-rosulata-LN810797
+	Acarospora-rugulosa-LN810798
+	Acarospora-rugulosa-LN810799
+	Acarospora-schleicheri-LN810801
+	Acarospora-schleicheri-ON794213
+	Acarospora-sharnoffii-ON707101
+	Acarospora-socialis-MW989390
+	'Acarospora-sp.-OP162387'
+	Acarospora-squamulosa-LN810793
+	Acarospora-squamulosa-LN810794
+	Acarospora-subcontigua-ON707045
+	Acarospora-tejonensis-OP162388
+	Acarospora-terricola-LN810806
+	Acarospora-tuckerae-OK142754
+	Acarospora-tuckerae-ON794193
+	Acarospora-utahensis-ON707051
+	Glypholecia-scabra-LN810811
+	Myriospora-bullata-MZ262727
+	Myriospora-bullata-ON707077
+	Myriospora-myochroa-EU870677
+	Myriospora-rhagadiza-EU870647
+	Myriospora-scabrida-LN810812
+	Myriospora-smaragdula-EU870686
+	Pleopsidium-chlorophanum-EU870691
+	Pleopsidium-chlorophanum-LN810813
+	Pleopsidium-flavum-AY853385
+	Polysporina-gyrocarpa-LN810817
+	Pycnora-sorophora-FJ959357
+	Sarcogyne-adscendens-OK142749
+	Sarcogyne-adscendens-OP162367
+	Sarcogyne-alcesensis-ON794197
+	Sarcogyne-algoviae-LN810849
+	Sarcogyne-algoviae-LN810850
+	Sarcogyne-arenosa-OQ171124
+	Sarcogyne-belarusensis-OQ171089
+	Sarcogyne-belarusensis-OQ171092
+	Sarcogyne-canadensis-ON794196
+	Sarcogyne-clavus-OQ171051
+	Sarcogyne-coeruleonigrans-OQ171108
+	Sarcogyne-coreleonigrans-PP091276
+	Sarcogyne-distinguenda-LN810854
+	Sarcogyne-fasciculata-ON707072
+	Sarcogyne-fasciculata-ON707100
+	Sarcogyne-fasciculata-OQ171069
+	Sarcogyne-fasciculata-OQ171105
+	Sarcogyne-fasciculata-OQ171106
+	Sarcogyne-hypophaea-LN810856
+	Sarcogyne-hypophaea-LN810857
+	Sarcogyne-hypophaeoides-LN810858
+	Sarcogyne-hypophaeoides-LN810859
+	Sarcogyne-magnussonii-MW715694
+	Sarcogyne-malpaiensis-OK142764
+	Sarcogyne-nivea-OQ171085
+	Sarcogyne-nogalensis-ON447632
+	Sarcogyne-platycarpoides-OQ171137
+	Sarcogyne-poeltii-OP162398
+	Sarcogyne-praetermissa-ON794209
+	Sarcogyne-pruinosa-OQ171097
+	Sarcogyne-pruinosa-OQ171098
+	Sarcogyne-similis-MW715720
+	Sarcogyne-similis-OK142766
+	Sarcogyne-wheeleri-ON794198
+	Timdalia-intricata-LN810866
+	Timdalia-intricata-LN810867
+	Trimmatothelopsis-californica-OQ171067
+	Trimmatothelopsis-schorica-ON303958
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Acarospora-cervina-OK142756:0.004722,((((((((((((((((((((((((((Acarospora-intermedia-MW715700:0.001346,(Acarospora-fusca-MT809051:3.0E-6,Acarospora-fusca-OP162405:3.0E-6)[&label=100]:0.004283)[&label=90]:0.003686,(Acarospora-americana-OP162349:3.0E-6,Acarospora-americana-OP162350:3.0E-6)[&label=100]:0.00292)[&label=100]:0.012983,(Acarospora-schleicheri-ON794213:0.002123,((Acarospora-nodulosa-LN810788:0.001053,Acarospora-nodulosa-LN810789:8.99E-4)[&label=100]:0.006161,Acarospora-schleicheri-LN810801:0.003922)[&label=99]:0.003874)[&label=100]:0.028729)[&label=84]:7.94E-4,(Acarospora-privigna-OK142747:6.32E-4,Acarospora-lapponica-OP162380:0.017344)[&label=100]:0.005099)[&label=87]:0.001984,(Acarospora-atrata-LN810761:0.003959,Acarospora-atrata-LN810760:0.001972)[&label=100]:0.004568)[&label=91]:0.002618,Acarospora-monacensis-OP162370:0.010708)[&label=73]:0.001391,(Acarospora-fuscata-ON447607:0.00156,Acarospora-fuscata-MW989393:0.001197)[&label=99]:0.001972)[&label=99]:0.003332,((((((Acarospora-radicata-ON447602:0.017981,Acarospora-radicata-ON447604:0.002456)[&label=99]:0.004528,Acarospora-organensis-ON447603:0.004968)[&label=100]:0.005405,Acarospora-subcontigua-ON707045:0.007507)[&label=71]:2.0E-6,Acarospora-affinis-ON707071:0.016262)[&label=98]:0.00321,(Acarospora-socialis-MW989390:0.005859,Acarospora-robiniae-ON707078:0.009278)[&label=94]:0.003679)[&label=82]:0.002666,((Acarospora-rimulosa-ON707057:0.001603,Acarospora-rimulosa-ON707094:0.033359)[&label=100]:0.008381,'Acarospora-sp.-OP162387':0.0124)[&label=69]:0.001255)[&label=51]:0.001603)[&label=74]:0.002357,Acarospora-divisa-OK142748:0.013299)[&label=86]:8.89E-4,((Acarospora-indistincta-ON707096:0.004877,Acarospora-indistincta-ON707099:0.0115)[&label=99]:2.07E-4,Polysporina-gyrocarpa-LN810817:0.005081)[&label=99]:0.003164)[&label=85]:7.07E-4,(((Acarospora-chrysops-ON447623:3.0E-6,Acarospora-chrysops-ON447626:0.001623)[&label=99]:7.11E-4,Acarospora-chrysops-ON707091:0.011717)[&label=100]:0.006428,Acarospora-tuckerae-OK142754:0.010514)[&label=62]:0.007042)[&label=61]:0.004,(Acarospora-agostiniana-ON707085:0.015352,Acarospora-tejonensis-OP162388:0.013737)[&label=46]:0.003053)[&label=14]:4.62E-4,((((Acarospora-tuckerae-ON794193:0.023969,(Acarospora-nicolai-LN810785:0.009892,Acarospora-obpallens-LN810790:0.01238)[&label=100]:0.010383)[&label=77]:0.010602,(Acarospora-rosulata-LN810796:0.004254,Acarospora-rosulata-LN810797:0.003723)[&label=100]:0.006023)[&label=54]:0.00309,(Acarospora-rugulosa-LN810798:0.005775,Acarospora-rugulosa-LN810799:0.011155)[&label=100]:0.014887)[&label=46]:0.00111,Acarospora-alba-OQ171055:0.013261)[&label=51]:0.002691)[&label=34]:0.001456,Acarospora-utahensis-ON707051:0.012794)[&label=65]:0.001564,(Acarospora-squamulosa-LN810793:0.001909,Acarospora-squamulosa-LN810794:0.004004)[&label=100]:0.007351)[&label=69]:0.003803,Acarospora-sharnoffii-ON707101:0.020704)[&label=88]:0.006237,((Sarcogyne-similis-MW715720:0.007857,Sarcogyne-similis-OK142766:0.013516)[&label=100]:0.008107,Sarcogyne-poeltii-OP162398:0.011022)[&label=100]:0.023873)[&label=90]:0.009483,((Sarcogyne-fasciculata-ON707100:0.011393,((Sarcogyne-fasciculata-OQ171069:0.003866,Sarcogyne-fasciculata-OQ171105:0.009058)[&label=100]:0.002061,(Sarcogyne-fasciculata-OQ171106:3.0E-6,Sarcogyne-fasciculata-ON707072:3.0E-6)[&label=85]:3.0E-6)[&label=100]:0.009709)[&label=96]:0.023808,(Acarospora-impressula-LN810776:0.024877,Glypholecia-scabra-LN810811:0.038736)[&label=55]:0.00363)[&label=81]:0.001347)[&label=49]:0.001195,Sarcogyne-clavus-OQ171051:0.027294)[&label=48]:0.002566,(((((((((Myriospora-bullata-ON707077:7.6E-4,Myriospora-bullata-MZ262727:0.003107)[&label=100]:0.019972,Myriospora-scabrida-LN810812:0.006732)[&label=99]:0.001708,Myriospora-rhagadiza-EU870647:0.01089)[&label=97]:0.00369,(Myriospora-myochroa-EU870677:0.008007,Myriospora-smaragdula-EU870686:0.015443)[&label=100]:0.014394)[&label=99]:0.013383,Pycnora-sorophora-FJ959357:0.093903)[&label=97]:0.010224,((Pleopsidium-chlorophanum-EU870691:2.0E-6,Pleopsidium-chlorophanum-LN810813:0.002979)[&label=100]:0.023587,(Timdalia-intricata-LN810867:3.0E-6,Timdalia-intricata-LN810866:0.001072)[&label=100]:0.064338)[&label=74]:0.002793)[&label=86]:0.003985,Pleopsidium-flavum-AY853385:0.038847)[&label=91]:0.005176,((Trimmatothelopsis-schorica-ON303958:0.031171,(Trimmatothelopsis-californica-OQ171067:0.013587,Acarospora-terricola-LN810806:0.006391)[&label=100]:0.04324)[&label=67]:0.00451,Acarospora-rhizobola-EU870640:0.048564)[&label=100]:0.057268)[&label=87]:0.015413,(Sarcogyne-hypophaeoides-LN810858:3.0E-6,Sarcogyne-hypophaeoides-LN810859:3.0E-6)[&label=100]:0.04692)[&label=41]:6.53E-4)[&label=85]:0.00834,Sarcogyne-nogalensis-ON447632:0.028795)[&label=39]:6.5E-5,((((Sarcogyne-adscendens-OK142749:3.0E-6,Sarcogyne-adscendens-OP162367:0.004048)[&label=100]:0.016398,Sarcogyne-wheeleri-ON794198:0.015641)[&label=63]:9.1E-4,((((Sarcogyne-canadensis-ON794196:0.017051,Sarcogyne-platycarpoides-OQ171137:0.018806)[&label=94]:0.003369,Sarcogyne-alcesensis-ON794197:0.012444)[&label=100]:0.002652,(Acarospora-glaucocarpa-LN810768:0.004127,Acarospora-glaucocarpa-LN810769:8.99E-4)[&label=100]:0.02)[&label=98]:0.002869,Acarospora-moenium-LN810781:0.031175)[&label=99]:0.01004)[&label=82]:0.001056,((((Sarcogyne-malpaiensis-OK142764:0.003466,Sarcogyne-magnussonii-MW715694:0.001787)[&label=100]:0.024181,(Sarcogyne-coeruleonigrans-OQ171108:0.003907,Sarcogyne-coreleonigrans-PP091276:3.0E-6)[&label=100]:0.02905)[&label=91]:0.009246,(Sarcogyne-arenosa-OQ171124:0.025998,(Sarcogyne-pruinosa-OQ171097:0.009138,Sarcogyne-pruinosa-OQ171098:0.002408)[&label=100]:0.027015)[&label=98]:0.003252)[&label=97]:0.006233,(Sarcogyne-nivea-OQ171085:0.004907,((Sarcogyne-belarusensis-OQ171089:0.001586,Sarcogyne-belarusensis-OQ171092:3.0E-6)[&label=100]:0.008821,Sarcogyne-distinguenda-LN810854:0.008448)[&label=90]:0.00232)[&label=100]:0.050697)[&label=88]:0.006064)[&label=91]:0.010414)[&label=52]:0.006727,((Sarcogyne-praetermissa-ON794209:0.020269,(Sarcogyne-algoviae-LN810849:0.00195,Sarcogyne-algoviae-LN810850:3.0E-6)[&label=100]:0.02687)[&label=100]:0.012354,(Sarcogyne-hypophaea-LN810856:3.0E-6,Sarcogyne-hypophaea-LN810857:3.0E-6)[&label=100]:0.029802)[&label=69]:0.007478)[&label=36]:2.0E-6,((Acarospora-oligospora-ON794216:0.031879,Acarospora-oligospora-OP162348:0.008572)[&label=87]:0.010447,((Acarospora-macrospora-LN810779:0.001951,Acarospora-macrospora-LN810780:3.0E-6)[&label=100]:0.018736,Acarospora-murorum-LN810784:0.024783)[&label=100]:0.075922)[&label=65]:0.011813)[&label=97]:0.014073,((Acarospora-boulderensis-OP162359:0.006748,Acarospora-boulderensis-OP162391:0.013554)[&label=99]:0.010341,Acarospora-badiofusca-OP162390:0.017692)[&label=51]:0.001368)[&label=99]:0.003503,(Acarospora-irregularis-OP162363:0.001225,Acarospora-imbriculata-OP162381:0.023979)[&label=100]:0.012692)[&label=100]:0.00809,Acarospora-cervina-ON794168:0.004377);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=525;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
